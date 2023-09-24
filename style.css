@@ -24,19 +24,27 @@ header {
     height: 500px;
     border-radius: 5px;
     display: flex;
-    
+    justify-content: center;
     cursor: pointer;
     animation: carrossel 20s linear infinite;
 }
 
-.banner span {
+.banner button {
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    border: none;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 52px;
-    text-shadow: 2px 2px 24px rgb(27, 27, 27);
-    margin-left: 50px;
-    margin-top: 430px;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-top: 420px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.banner button:hover {
+    background-color: white;
+    color: green;
 }
 
 .main {
@@ -72,6 +80,7 @@ header {
     color: white;
     font-size: 30px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .material-symbols-outlined {
   font-variation-settings:
