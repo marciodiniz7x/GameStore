@@ -18,14 +18,20 @@ header {
 }
 
 .banner {
-    background-image: url(/img/baldurs.webp);
     background-size: cover;
     background-position: center;
     width: 1150px;
     height: 500px;
     border-radius: 5px;
     display: flex;
-    animation: carrossel 2s linear infinite;
+    animation: carrossel 20s linear infinite;
+}
+
+.banner span {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .main {
@@ -71,5 +77,27 @@ header {
 }
 
 @keyframes carrossel {
-    
+    0% {
+        background-image: url(/img/starfield.webp);
+    }
+    30% {
+        background-image: url(/img/starfield.webp);
+    }
+
+    32% {
+        background-image: url(/img/baldurs.webp);
+    }
+    62% {
+        background-image: url(/img/baldurs.webp);
+    }
+
+    64% {
+        background-image: url(/img/motorfest.webp);
+    }
+    96% {
+        background-image: url(/img/motorfest.webp);
+    }
+    100% {
+        background-image: url(/img/starfield.webp);
+    }
 }
