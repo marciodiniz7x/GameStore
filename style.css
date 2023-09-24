@@ -24,6 +24,8 @@ header {
     height: 500px;
     border-radius: 5px;
     display: flex;
+    
+    cursor: pointer;
     animation: carrossel 20s linear infinite;
 }
 
@@ -31,7 +33,10 @@ header {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 52px;
+    text-shadow: 2px 2px 24px rgb(27, 27, 27);
+    margin-left: 50px;
+    margin-top: 430px;
 }
 
 .main {
