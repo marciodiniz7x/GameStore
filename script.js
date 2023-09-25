@@ -7,10 +7,11 @@ function irHome() {
 }
 
 // Gerar cards dos jogos
-const game = document.createElement('div');
-game.classList.add('game');
-main.appendChild(game);
+const numGames = 10
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < numGames; i++) {
+    const game = document.createElement('div');
+    game.classList.add('game');
+    main.appendChild(game);
     console.log(i);
 }

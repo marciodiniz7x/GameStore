@@ -51,10 +51,9 @@ header {
 .main {
     background-color: #151D27;
     width: 1150px;
-    height: 100vh;
     border-radius: 5px;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 /* Header */
