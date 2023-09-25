@@ -13,5 +13,4 @@ main.appendChild(game);
 
 for (let i = 0; i < 5; i++) {
     console.log(i);
-    main.appendChild(game);
 }
