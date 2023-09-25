@@ -54,6 +54,7 @@ header {
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Header */
@@ -95,10 +96,12 @@ header {
 
 /* Main */
 .main .game {
-    width: 250px;
-    height: 300px;
+    width: 266px;
+    height: 200px;
     background-color: green;
-    margin: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 @keyframes carrossel {

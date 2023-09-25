@@ -7,7 +7,7 @@ function irHome() {
 }
 
 // Gerar cards dos jogos
-const numGames = 10
+const numGames = 8
 
 for (let i = 0; i < numGames; i++) {
     const game = document.createElement('div');
