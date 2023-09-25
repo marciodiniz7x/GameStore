@@ -48,15 +48,6 @@ header {
     color: green;
 }
 
-.main {
-    background-color: #151D27;
-    width: 1150px;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 /* Header */
 .logo-area {
     display: flex;
@@ -93,17 +84,66 @@ header {
   'GRAD' 0,
   'opsz' 24
 }
+/* -------------- */
 
 /* Main */
+.main {
+   
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -30px;
+    gap: 24px;
+}
+
+.title {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+}
+
+.title-text {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.title-text div {
+    font-size: 24px;
+}
+.title-text span {
+    color: rgb(107, 109, 110);
+    font-size: 17px;
+}
+
+.title button {
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
 .main .game {
     width: 266px;
     height: 200px;
     background-color: green;
-    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 
+
+/* Animações */
 @keyframes carrossel {
     0% {
         background-image: url(/img/starfield.webp);

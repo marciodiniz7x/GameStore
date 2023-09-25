@@ -15,3 +15,4 @@ for (let i = 0; i < numGames; i++) {
     main.appendChild(game);
     console.log(i);
 }
+
