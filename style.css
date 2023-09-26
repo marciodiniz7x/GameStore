@@ -94,7 +94,7 @@ header {
     flex-direction: column;
     gap: 20px;
 }
-.main {
+.imperdiveis {
     width: 1150px;
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +142,7 @@ header {
     color: white;
 }
 
-.main .game {
+.imperdiveis .game {
     width: 266px;
     height: 200px;
     background-color: green;

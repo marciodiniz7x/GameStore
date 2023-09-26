@@ -1,29 +1,21 @@
 // Seletor de elementos
-const main = document.querySelector('.main');
-const jogo1 = document.querySelector('.jogo1');
+const imperdiveis = document.querySelector('.imperdiveis');
+const incriveis = document.querySelector('.incriveis');
 
 // Iniciar site na página "Home"
 function irHome() {
     window.location = 'home.html';
 }
 
-// Gerar elementos de Jogo 1
-const title = document.createElement('div');
-title.classList.add('title');
-jogo1.appendChild(title);
+// Gerar cards dos jogos
+const numImperdiveis = 8;
 
-const titleText = document.createElement('div');
-titleText.classList.add('title-text');
-title.appendChild(titleText);
-
-const titleH1 = document.createElement('div');
-titleH1.innerHTML = 'IMPERD';
-
-const numGames = 8
-
-for (let i = 0; i < numGames; i++) {
+for (let i = 0; i < numImperdiveis; i++) {
     const game = document.createElement('div');
     game.classList.add('game');
-    main.appendChild(game);
+    imperdiveis.appendChild(game);
     console.log(i);
 }
+
+const numIncriveis = 8;
+
