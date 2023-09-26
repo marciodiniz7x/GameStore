@@ -8,14 +8,11 @@ function irHome() {
 }
 
 // Gerar cards dos jogos
-const numImperdiveis = 8;
+const numGames = 8;
 
-for (let i = 0; i < numImperdiveis; i++) {
-    const game = document.createElement('div');
-    game.classList.add('game');
-    imperdiveis.appendChild(game);
-    console.log(i);
+for (let i = 0; i < numGames; i++) {
+    const games = document.createElement('div');
+    games.classList.add('games');
+    imperdiveis.appendChild(games);
+    incriveis.appendChild(games);
 }
-
-const numIncriveis = 8;
-
