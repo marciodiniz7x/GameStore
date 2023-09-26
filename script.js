@@ -1,6 +1,7 @@
 // Seletor de elementos
 const imperdiveis = document.querySelector('.imperdiveis');
 const incriveis = document.querySelector('.incriveis');
+const quentes = document.querySelector('.quentes');
 
 // Iniciar site na página "Home"
 function irHome() {
@@ -11,9 +12,11 @@ function irHome() {
 const numGames = 8;
 
 for (let i = 0; i < numGames; i++) {
+
     const games = document.createElement('div');
     games.classList.add('games');
     imperdiveis.appendChild(games);
-
     incriveis.appendChild(games.cloneNode(true));
+    quentes.appendChild(games.cloneNode(true));
+    
 }
