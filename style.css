@@ -89,12 +89,12 @@ header {
 
 /* Jogos 1 */
 
-.jogos1 {
+.jogos {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.imperdiveis {
+.main {
     width: 1150px;
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +142,7 @@ header {
     color: white;
 }
 
-.imperdiveis .games {
+.main .games {
     width: 266px;
     height: 200px;
     background-color: green;

@@ -14,5 +14,6 @@ for (let i = 0; i < numGames; i++) {
     const games = document.createElement('div');
     games.classList.add('games');
     imperdiveis.appendChild(games);
-    incriveis.appendChild(games);
+
+    incriveis.appendChild(games.cloneNode(true));
 }
