@@ -68,7 +68,7 @@ menu .search-container {
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    margin-left: 50px;
+    
 }
 .logo {
     background-image: url(/img/logo2.png);
@@ -97,6 +97,16 @@ menu .search-container {
     border: none;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition: 300ms;
+}
+
+.cart-login button:hover {
+    background-color: white;
+    color: green;
 }
 
 .cart {
