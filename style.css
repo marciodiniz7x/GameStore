@@ -27,11 +27,39 @@ header {
     
 }
 
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+.logo {
+    background-image: url(/img/logo2.png);
+    width: 60px;
+    height: 55px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.logo-area span {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
 header menu {
 
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+header menu .home, .promocoes, .sobre, .suporte {
+    cursor: pointer;
 }
 
 menu .search-container {
@@ -61,30 +89,6 @@ menu .search-container {
     color: #92A2B3;
     left: 70px;
     top: 8px;
-}
-
-.logo-area {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    
-}
-.logo {
-    background-image: url(/img/logo2.png);
-    width: 60px;
-    height: 55px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-left: 20px;
-}
-.logo-area span {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 10px;
-    
 }
 
 .cart-login {
