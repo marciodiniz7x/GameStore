@@ -28,6 +28,7 @@ header {
 }
 
 header menu {
+
     display: flex;
     align-items: center;
     gap: 30px;
@@ -67,6 +68,7 @@ menu .search-container {
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    margin-left: 50px;
 }
 .logo {
     background-image: url(/img/logo2.png);
@@ -87,10 +89,14 @@ menu .search-container {
 
 .cart-login {
     display: flex;
+    align-items: center;
+    margin-right: 50px;
 }
 
 .cart-login button {
     border: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .cart {
